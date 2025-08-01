@@ -1,0 +1,23 @@
+[project]
+name = "reversible_deq"
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = [
+    "equinox>=0.13.0",
+    "jax[cuda12]>=0.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["reversible_deq/*"]
+
+[tool.ruff]
+ignore = ["E402"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+lines-after-imports = 2
+order-by-type = false
