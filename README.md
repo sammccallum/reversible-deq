@@ -3,7 +3,7 @@
 This repository implements Reversible Deep Equilibrium Models - introduced in this paper.
 
 ## Library
-See `revdeq`.
+See [revdeq](https://github.com/sammccallum/revdeq).
 
 ## Example
 ```python
