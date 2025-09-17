@@ -1,6 +1,6 @@
 # Reversible Deep Equilibrium Models
 
-This repository implements Reversible Deep Equilibrium Models - introduced in this paper.
+This repository implements Reversible Deep Equilibrium Models - introduced in this [paper](https://arxiv.org/abs/2509.12917).
 
 ## Library
 See [revdeq](https://github.com/sammccallum/revdeq).
